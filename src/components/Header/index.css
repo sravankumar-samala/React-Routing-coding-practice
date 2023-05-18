@@ -1,0 +1,30 @@
+/* Write your CSS code here */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 2em;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: clamp(0.5em, 3vw, 1em);
+}
+.logo-container img {
+  max-width: 20%;
+}
+.logo-container p {
+  color: #12022f;
+  margin-left: 0;
+  font-weight: bold;
+  font-size: clamp(1rem, 5vw, 2rem);
+}
+.navigation-list {
+  display: flex;
+  gap: 1.5em;
+}
+.navigation-list .nav-link {
+  color: #12022f;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
